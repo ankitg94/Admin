@@ -41,7 +41,7 @@ app.use(morgan('dev'))
 
 //03-hoisting(start)
 app.use(express.static(path.join(__dirname, './client/build')))
- hositng (end)
+// hositng (end)
 //routes(Project)
 app.use("/api/v1/auth",authRoute)
 app.use("/api/v1/category",categoryRoute)
